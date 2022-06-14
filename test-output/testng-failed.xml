@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [HAP Regression Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.hap.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.hap.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test name="HAP Login Page Test">
+    <classes>
+      <class name="com.qa.hap.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- HAP Login Page Test -->
+  <test name="HAP Home Page Test">
+    <classes>
+      <class name="com.qa.hap.tests.HomePageTest"/>
+    </classes>
+  </test> <!-- HAP Home Page Test -->
+  <test name="HAP Login Page Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.hap.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="beforesetup"/>
+        </methods>
+      </class> <!-- com.qa.hap.tests.HomePageTest -->
+      <class name="com.qa.hap.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="getLoginPageUrl"/>
+        </methods>
+      </class> <!-- com.qa.hap.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- HAP Login Page Test(failed) -->
+</suite> <!-- Failed suite [HAP Regression Test Suite] -->
