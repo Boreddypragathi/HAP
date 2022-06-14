@@ -13,6 +13,7 @@ public class LoginPage {
 	private By password=By.id("password");
 	private By loginBtn=By.xpath("//button[@type='submit']");
 	private By forgotpassword=By.linkText("password?");
+	private By forgotpassword1=By.linkText("password?");
 	public LoginPage(WebDriver driver)
 	{
 		this.driver=driver;
