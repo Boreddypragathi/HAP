@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Constants {
 
-	
+	//these are the custom waits to used thrught out HAP
 	public static final int DEFAULT_TIME_OUT = 5;
 	public static final int DEFAULT_ELEMENT_TIME_OUT = 10;
 	
@@ -15,7 +15,7 @@ public class Constants {
 	public static final int DEFAULT_ELEMENT_TIME_OUT1 = 0;
 	public static final String LOGIN_PAGE_URL_FRACTION = "helius_testing_hapteam/login.html";
 	public static final String LOGIN_PAGE_TITLE = "HAP";
-	//public static final String LOGIN_PAGE_TITLE = null; 
+	public static final String LOGIN_PAGE_TITLE1 = null; 
 	public static final String CREATE_OFFER_PAGE_TITLE = "OFFER DETAILS";
 	public static final String CREATE_OFFER_PAGE_URL = null;	
 	public static final String HOMEPAGE_HEADER = "HAP - HELIUS APP for PEOPLE";
