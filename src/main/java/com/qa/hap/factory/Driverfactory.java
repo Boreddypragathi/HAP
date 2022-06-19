@@ -27,7 +27,8 @@ Properties prop;
 public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 public WebDriver init_driver(Properties prop )
 {
-	String browserName=prop.getProperty("browser");
+	//String browserName=prop.getProperty("browser");
+	String browserName = System.getProperty("browser");
 	System.out.println("Browser name is:"+browserName);
 	
 	if(browserName.equalsIgnoreCase("chrome"))
