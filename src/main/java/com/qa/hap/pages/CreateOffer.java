@@ -12,7 +12,7 @@ public class CreateOffer {
 	private WebDriver driver;
 	private ElementUtil eleutil;
 
-	//private By OfferMadeon = By.xpath("//input[@name='offermadeon']");
+	
 	private By OfferMadeOnCalender = By.xpath("//button[@ng-click='isDatepickerOpen = !isDatepickerOpen']");
 	private By OfferMadeOnCalenderToday = By.xpath("//button[@class='btn btn-sm btn-info uib-datepicker-current ng-binding']");
 	private By DOBCalender = By.xpath("//button[@ng-click='isDatepicker = !isDatepicker']");
