@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HAP Regression Test Suite" verbose="4"
+	thread-count="4" parallel="tests">
+
+	<listeners>
+		<listener
+			class-name="com.qa.hap.listeners.ExtentReportListener" />
+			<listener
+			class-name="com.qa.hap.listeners.AnnotationTransformer" />
+	</listeners>
+
+
+
+	<test name="HAP offer Page Test">
+		<classes>
+			<class name="com.qa.hap.tests.CreateOfferTest" />
+		</classes>
+	</test>
+
+
+	<!-- <test name="Open Cart Register Page Test"> <classes> <class name="com.qa.opencart.tests.RegisterTest" 
+		/> </classes> </test> -->
+
+
+
+
+</suite>
