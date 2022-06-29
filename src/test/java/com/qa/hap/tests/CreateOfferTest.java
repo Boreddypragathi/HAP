@@ -21,14 +21,14 @@ public class CreateOfferTest extends BaseTest {
 
 	}
 
-	@Test(priority = 1)
+	@Test(enabled = false)
 	public void getCreateOfferPageTitle() {
 		String acctitle = createoffer.getCreateOfferPageTitle();
 		System.out.println("Actual create offer title is:" + acctitle);
 		Assert.assertEquals(acctitle, Constants.CREATE_OFFER_PAGE_TITLE);
 	}
 
-	@Test(priority = 2)
+	@Test(enabled = false)
 	public String getCreteOfferPageUrl() {
 		String acturl = createoffer.getCreteOfferPageUrl();
 		System.out.println("Actual create offer title is:" + acturl);
@@ -57,7 +57,7 @@ public class CreateOfferTest extends BaseTest {
 	}	
 	
 	
-	@Test
+	@Test(enabled = false)
 	public void serchViewupdateoffers() throws InterruptedException
 	{
 		viewupdateoffers.searchOffers();
