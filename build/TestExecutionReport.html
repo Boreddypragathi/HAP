@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">HAP Automation Test Results</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 19, 2022 10:37:17 AM</span></a>
+<a href="#"><span class="badge badge-primary">Jun 28, 2022 12:32:42 PM</span></a>
 </li>
 </ul>
 </div>
@@ -96,9 +96,9 @@
           tag="HAPRegressionTestSuite"
           device="">
           <div class="test-detail">
-            <p class="name">loginPageTitleTest</p>
+            <p class="name">serchViewupdateoffers</p>
             <p class="text-sm">
-              <span>10:37:28 AM</span> / <span>00:00:00:170</span>
+              <span>12:33:08 PM</span> / <span>00:01:12:162</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -106,10 +106,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">loginPageTitleTest</h5>
-<span class='badge badge-success'>06.19.2022 10:37:28 AM</span>
-<span class='badge badge-danger'>06.19.2022 10:37:28 AM</span>
-<span class='badge badge-default'>00:00:00:170</span>
+<h5 class="test-status text-pass">serchViewupdateoffers</h5>
+<span class='badge badge-success'>06.28.2022 12:33:08 PM</span>
+<span class='badge badge-danger'>06.28.2022 12:34:20 PM</span>
+<span class='badge badge-default'>00:01:12:162</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -122,7 +122,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:37:28 AM</td>
+        <td>12:34:20 PM</td>
         <td>
           Test passed
         </td>
@@ -137,9 +137,9 @@
           tag="HAPRegressionTestSuite"
           device="">
           <div class="test-detail">
-            <p class="name">getLoginPageUrl</p>
+            <p class="name">getCreateOfferPageTitle</p>
             <p class="text-sm">
-              <span>10:37:28 AM</span> / <span>00:00:00:024</span>
+              <span>12:34:20 PM</span> / <span>00:00:05:148</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -147,10 +147,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">getLoginPageUrl</h5>
-<span class='badge badge-success'>06.19.2022 10:37:28 AM</span>
-<span class='badge badge-danger'>06.19.2022 10:37:28 AM</span>
-<span class='badge badge-default'>00:00:00:024</span>
+<h5 class="test-status text-fail">getCreateOfferPageTitle</h5>
+<span class='badge badge-success'>06.28.2022 12:34:20 PM</span>
+<span class='badge badge-danger'>06.28.2022 12:34:25 PM</span>
+<span class='badge badge-default'>00:00:05:148</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -163,16 +163,19 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:37:28 AM</td>
+        <td>12:34:26 PM</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [helius_testing_hapteam/login.html] but found [https://hap-testing.heliusapp.com/helius_testing_hapteam/login.html]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.qa.hap.tests.LoginPageTest.getLoginPageUrl(LoginPageTest.java:26)
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "OFFER DETAILS". Current title: "HAP" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-0H005IDA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Helius\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62745/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c85c595c355d5cb4e01c313746f95cf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.qa.hap.utils.ElementUtil.waitForTitleIs(ElementUtil.java:114)
+	at com.qa.hap.pages.CreateOffer.getCreateOfferPageTitle(CreateOffer.java:128)
+	at com.qa.hap.tests.CreateOfferTest.getCreateOfferPageTitle(CreateOfferTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -196,7 +199,7 @@
 </textarea>
           
     <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshot/1655615248880.png' src="./screenshot/1655615248880.png">
+<img data-featherlight='./screenshot/1656399866024.png' src="./screenshot/1656399866024.png">
     
     </div></div>
         </td>
@@ -206,25 +209,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="fail" test-id="3"
           author=""
           tag="HAPRegressionTestSuite"
           device="">
           <div class="test-detail">
-            <p class="name">isForgotPwdLinkExistTest</p>
+            <p class="name">CreteOfferPageSuccessfully</p>
             <p class="text-sm">
-              <span>10:37:28 AM</span> / <span>00:00:00:075</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:34:27 PM</span> / <span>00:00:05:033</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">isForgotPwdLinkExistTest</h5>
-<span class='badge badge-success'>06.19.2022 10:37:28 AM</span>
-<span class='badge badge-danger'>06.19.2022 10:37:28 AM</span>
-<span class='badge badge-default'>00:00:00:075</span>
+<h5 class="test-status text-fail">CreteOfferPageSuccessfully</h5>
+<span class='badge badge-success'>06.28.2022 12:34:27 PM</span>
+<span class='badge badge-danger'>06.28.2022 12:34:32 PM</span>
+<span class='badge badge-default'>00:00:05:033</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -236,10 +239,63 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:37:28 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:34:32 PM</td>
         <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@ng-click='isDatepickerOpen = !isDatepickerOpen']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-0H005IDA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c85c595c355d5cb4e01c313746f95cf, findElement {using=xpath, value=//button[@ng-click='isDatepickerOpen = !isDatepickerOpen']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Helius\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62745/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c85c595c355d5cb4e01c313746f95cf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at com.qa.hap.utils.ElementUtil.getElement(ElementUtil.java:100)
+	at com.qa.hap.utils.ElementUtil.doClick(ElementUtil.java:60)
+	at com.qa.hap.pages.CreateOffer.createOfferpage(CreateOffer.java:67)
+	at com.qa.hap.tests.CreateOfferTest.CreteOfferPageSuccessfully(CreateOfferTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</textarea>
+          
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshot/1656399872239.png' src="./screenshot/1656399872239.png">
+    
+    </div></div>
         </td>
       </tr>
   </tbody>
@@ -247,25 +303,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="4"
+        <li class="test-item"  status="fail" test-id="4"
           author=""
           tag="HAPRegressionTestSuite"
           device="">
           <div class="test-detail">
-            <p class="name">HomepageHeaderTest</p>
+            <p class="name">CreteOfferPageSuccessfully</p>
             <p class="text-sm">
-              <span>10:37:29 AM</span> / <span>00:00:06:117</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:34:32 PM</span> / <span>00:00:05:025</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">HomepageHeaderTest</h5>
-<span class='badge badge-success'>06.19.2022 10:37:29 AM</span>
-<span class='badge badge-danger'>06.19.2022 10:37:35 AM</span>
-<span class='badge badge-default'>00:00:06:117</span>
+<h5 class="test-status text-fail">CreteOfferPageSuccessfully</h5>
+<span class='badge badge-success'>06.28.2022 12:34:32 PM</span>
+<span class='badge badge-danger'>06.28.2022 12:34:37 PM</span>
+<span class='badge badge-default'>00:00:05:025</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -277,84 +333,69 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:37:35 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:34:37 PM</td>
         <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@ng-click='isDatepickerOpen = !isDatepickerOpen']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-0H005IDA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c85c595c355d5cb4e01c313746f95cf, findElement {using=xpath, value=//button[@ng-click='isDatepickerOpen = !isDatepickerOpen']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Helius\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62745/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c85c595c355d5cb4e01c313746f95cf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at com.qa.hap.utils.ElementUtil.getElement(ElementUtil.java:100)
+	at com.qa.hap.utils.ElementUtil.doClick(ElementUtil.java:60)
+	at com.qa.hap.pages.CreateOffer.createOfferpage(CreateOffer.java:67)
+	at com.qa.hap.tests.CreateOfferTest.CreteOfferPageSuccessfully(CreateOfferTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</textarea>
+          
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshot/1656399877468.png' src="./screenshot/1656399877468.png">
+    
+    </div></div>
         </td>
       </tr>
   </tbody>
 </table>
 </div>
           </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="5"
-          author=""
-          tag="HAPRegressionTestSuite"
-          device="">
-          <div class="test-detail">
-            <p class="name">homepageHeadersHapVideosTest</p>
-            <p class="text-sm">
-              <span>10:37:35 AM</span> / <span>00:00:07:123</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">homepageHeadersHapVideosTest</h5>
-<span class='badge badge-success'>06.19.2022 10:37:35 AM</span>
-<span class='badge badge-danger'>06.19.2022 10:37:42 AM</span>
-<span class='badge badge-default'>00:00:07:123</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">HAPRegressionTestSuite</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:37:42 AM</td>
-        <td>
-          Test passed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="6"
-          author=""
-          tag="HAPRegressionTestSuite"
-          device="">
-          <div class="test-detail">
-            <p class="name">homepageHeadersTest</p>
-            <p class="text-sm">
-              <span>10:37:42 AM</span> / <span>00:00:00:006</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">homepageHeadersTest</h5>
-<span class='badge badge-success'>06.19.2022 10:37:42 AM</span>
-<span class='badge badge-danger'>06.19.2022 10:37:42 AM</span>
-<span class='badge badge-default'>00:00:00:006</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">HAPRegressionTestSuite</span></div>
-</div>
-</div>          </div>
         </li>
       </ul>
     </div>
@@ -369,7 +410,7 @@
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
@@ -378,12 +419,12 @@
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
+<p class="name">org.openqa.selenium.TimeoutException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
+<h4>org.openqa.selenium.TimeoutException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -397,9 +438,49 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>10:37:28 AM</td>
+<td>12:34:20 PM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='2'>getLoginPageUrl</a>
+<a href="#" class="linked" test-id='2' id='2'>getCreateOfferPageTitle</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:34:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>CreteOfferPageSuccessfully</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:34:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>CreteOfferPageSuccessfully</a>
 </td>
 </tr>
 </tbody>
@@ -425,17 +506,17 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>5</span>
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>3</span>
 </span>
 <p class="name">HAPRegressionTestSuite</p>
-<p class="duration text-sm">6 tests</p>
+<p class="duration text-sm">4 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>HAPRegressionTestSuite</h4>
-<span status="pass" class='badge log pass-bg'>5 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -448,44 +529,30 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>10:37:28 AM</td>
+<td>12:33:08 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>loginPageTitleTest</a>
+<a href="#" class="linked" test-id='1' id='1'>serchViewupdateoffers</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>10:37:28 AM</td>
+<td>12:34:20 PM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='2'>getLoginPageUrl</a>
+<a href="#" class="linked" test-id='2' id='2'>getCreateOfferPageTitle</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:37:28 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:34:27 PM</td>
 <td>
-<a href="#" class="linked" test-id='3' id='3'>isForgotPwdLinkExistTest</a>
+<a href="#" class="linked" test-id='3' id='3'>CreteOfferPageSuccessfully</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:37:29 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:34:32 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='4'>HomepageHeaderTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:37:35 AM</td>
-<td>
-<a href="#" class="linked" test-id='5' id='5'>homepageHeadersHapVideosTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:37:42 AM</td>
-<td>
-<a href="#" class="linked" test-id='6' id='6'>homepageHeadersTest</a>
+<a href="#" class="linked" test-id='4' id='4'>CreteOfferPageSuccessfully</a>
 </td>
 </tr>
 </tbody>
@@ -505,25 +572,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 19, 2022 10:37:17 AM</h3>
+<h3>Jun 28, 2022 12:32:42 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 19, 2022 10:38:24 AM</h3>
+<h3>Jun 28, 2022 12:34:37 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>5</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>3</h3>
 </div></div>
 </div>
 </div>
@@ -539,12 +606,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='83%'>
-<b>5</b> tests passed
+<div><small data-tooltip='25%'>
+<b>1</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='16%'><b>1</b> tests failed,
+<small data-tooltip='75%'><b>3</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -562,9 +629,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='80%'><b>4</b> events passed</small></div>
+<div><small data-tooltip='25%'><b>1</b> events passed</small></div>
 <div>
-<small data-tooltip='20%'><b>1</b> events failed,
+<small data-tooltip='75%'><b>3</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -581,7 +648,7 @@
 </div></div>
 <script>
 var timeline = {
-"loginPageTitleTest":0.17,"getLoginPageUrl":0.024,"isForgotPwdLinkExistTest":0.075,"HomepageHeaderTest":6.117,"homepageHeadersHapVideosTest":7.123,"homepageHeadersTest":0.006
+"serchViewupdateoffers":72.162,"getCreateOfferPageTitle":5.148,"CreteOfferPageSuccessfully":5.033,"CreteOfferPageSuccessfully":5.025
 };
 </script>
 <div class="row">
@@ -592,11 +659,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>HAPRegressionTestSuite</td>
-<td>5</td>
 <td>1</td>
+<td>3</td>
 <td>0</td>
 <td>0</td>
-<td>83.333%</td>
+<td>25%</td>
 </tr>
 </tbody>
 </table></div>
@@ -633,8 +700,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 5,
-failParent: 1,
+passParent: 1,
+failParent: 3,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -650,8 +717,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 4,
-failEvents: 1,
+passEvents: 1,
+failEvents: 3,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0

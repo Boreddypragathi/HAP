@@ -44,8 +44,7 @@ public class CreateOfferTest extends BaseTest {
 	
 	@Test(dataProvider = "getCreateOfferTestData", priority=3)
 	public void CreteOfferPageSuccessfully(String candidatename, String gender, String heliusrecruiter,
-			String accountmanager,
-			String	workcountry,String nationality,String payrollentity,String mobilenumber,
+			String accountmanager, String workcountry,String nationality,String payrollentity,String mobilenumber,
 			String personalemail,String relevantitexperienceyears,String relevantitexperiencemonths,
 			String totalyearsofexperienceyears,String totalyearsofexperiencemonths,String primaryskills,
 			String secondaryskills,String client,String seatlocation)throws InterruptedException {

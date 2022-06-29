@@ -28,9 +28,10 @@ Properties prop;
 public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 public WebDriver init_driver(Properties prop )
 {
-	//String browserName=prop.getProperty("browser");
 	String browserName = System.getProperty("browser");
+	//String browserName = "chrome";
 	System.out.println("Browser name is:"+browserName);
+	
 	
 	if(browserName.equalsIgnoreCase("chrome"))
 	{
@@ -81,7 +82,7 @@ public Properties init_prop()//this method is used to initialise the properies
 	
 	//mvn clean install -Denv="qa"
 	String envName = System.getProperty("env");
-	//String envName = null;
+	//String envName = "qa";
 	System.out.println("Running test cases on Environment: " +envName);
 	
 	if (envName == null) {

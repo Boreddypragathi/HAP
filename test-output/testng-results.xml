@@ -1,181 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="1" total="9" passed="6">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="HAP Regression Test Suite" duration-ms="38566" started-at="2022-06-14T03:53:47Z" finished-at="2022-06-14T03:54:26Z">
+  <suite name="Default suite" duration-ms="257830" started-at="2022-06-29T03:46:42Z" finished-at="2022-06-29T03:51:00Z">
     <groups>
     </groups>
-    <test name="HAP Login Page Test" duration-ms="16281" started-at="2022-06-14T03:53:47Z" finished-at="2022-06-14T03:54:03Z">
-      <class name="com.qa.hap.tests.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hap.tests.LoginPageTest@61386958]" name="setup" is-config="true" duration-ms="15428" started-at="2022-06-14T09:23:47Z" finished-at="2022-06-14T09:24:02Z">
+    <test name="Default test" duration-ms="257830" started-at="2022-06-29T03:46:42Z" finished-at="2022-06-29T03:51:00Z">
+      <class name="com.qa.hap.tests.CreateOfferTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hap.tests.CreateOfferTest@65d6b83b]" name="setup" is-config="true" duration-ms="13582" started-at="2022-06-29T09:16:42Z" finished-at="2022-06-29T09:16:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.qa.hap.tests.LoginPageTest@61386958]" name="loginPageTitleTest" duration-ms="173" started-at="2022-06-14T09:24:02Z" finished-at="2022-06-14T09:24:03Z">
+        <test-method status="PASS" signature="Createoffersetup()[pri:0, instance:com.qa.hap.tests.CreateOfferTest@65d6b83b]" name="Createoffersetup" is-config="true" duration-ms="15051" started-at="2022-06-29T09:16:56Z" finished-at="2022-06-29T09:17:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="SKIP" signature="getLoginPageUrl()[pri:2, instance:com.qa.hap.tests.LoginPageTest@61386958]" name="getLoginPageUrl" duration-ms="31" started-at="2022-06-14T09:24:03Z" finished-at="2022-06-14T09:24:03Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [helius_testing_hapteam/login.html] but found [https://hap-testing.heliusapp.com/helius_testing_hapteam/login.html]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [helius_testing_hapteam/login.html] but found [https://hap-testing.heliusapp.com/helius_testing_hapteam/login.html]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.qa.hap.tests.LoginPageTest.getLoginPageUrl(LoginPageTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- Createoffersetup -->
+        <test-method status="PASS" signature="CreteOfferPageSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hap.tests.CreateOfferTest@65d6b83b]" name="CreteOfferPageSuccessfully" duration-ms="123563" started-at="2022-06-29T09:17:13Z" data-provider="getCreateOfferTestData" finished-at="2022-06-29T09:19:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testingx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chavika]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pragathi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Helius]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9.032411221E9]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[bpragathi24@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8 Years]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3 Months]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[10 Years]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3 Months]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[selenium expert]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[DAH2]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLoginPageUrl -->
-        <test-method status="SKIP" signature="getLoginPageUrl()[pri:2, instance:com.qa.hap.tests.LoginPageTest@61386958]" name="getLoginPageUrl" duration-ms="28" started-at="2022-06-14T09:24:03Z" finished-at="2022-06-14T09:24:03Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [helius_testing_hapteam/login.html] but found [https://hap-testing.heliusapp.com/helius_testing_hapteam/login.html]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [helius_testing_hapteam/login.html] but found [https://hap-testing.heliusapp.com/helius_testing_hapteam/login.html]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.qa.hap.tests.LoginPageTest.getLoginPageUrl(LoginPageTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- CreteOfferPageSuccessfully -->
+        <test-method status="PASS" signature="CreteOfferPageSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hap.tests.CreateOfferTest@65d6b83b]" name="CreteOfferPageSuccessfully" duration-ms="103500" started-at="2022-06-29T09:19:16Z" data-provider="getCreateOfferTestData" finished-at="2022-06-29T09:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testingy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chavika]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pragathi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Helius]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8.341112333E9]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[bpragathi24@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8 Years]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3 Months]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[10 Years]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3 Months]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[selenium expert]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[DAH2]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLoginPageUrl -->
-        <test-method status="FAIL" signature="getLoginPageUrl()[pri:2, instance:com.qa.hap.tests.LoginPageTest@61386958]" name="getLoginPageUrl" duration-ms="30" started-at="2022-06-14T09:24:03Z" finished-at="2022-06-14T09:24:03Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [helius_testing_hapteam/login.html] but found [https://hap-testing.heliusapp.com/helius_testing_hapteam/login.html]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [helius_testing_hapteam/login.html] but found [https://hap-testing.heliusapp.com/helius_testing_hapteam/login.html]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.qa.hap.tests.LoginPageTest.getLoginPageUrl(LoginPageTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getLoginPageUrl -->
-        <test-method status="PASS" signature="isForgotPwdLinkExistTest()[pri:3, instance:com.qa.hap.tests.LoginPageTest@61386958]" name="isForgotPwdLinkExistTest" duration-ms="85" started-at="2022-06-14T09:24:03Z" finished-at="2022-06-14T09:24:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isForgotPwdLinkExistTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hap.tests.LoginPageTest@61386958]" name="tearDown" is-config="true" duration-ms="2" started-at="2022-06-14T09:24:03Z" finished-at="2022-06-14T09:24:03Z">
+        </test-method> <!-- CreteOfferPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hap.tests.CreateOfferTest@65d6b83b]" name="tearDown" is-config="true" duration-ms="3" started-at="2022-06-29T09:21:00Z" finished-at="2022-06-29T09:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hap.tests.LoginPageTest -->
-    </test> <!-- HAP Login Page Test -->
-    <test name="HAP Home Page Test" duration-ms="38566" started-at="2022-06-14T03:53:47Z" finished-at="2022-06-14T03:54:26Z">
-      <class name="com.qa.hap.tests.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hap.tests.HomePageTest@696da30b]" name="setup" is-config="true" duration-ms="15466" started-at="2022-06-14T09:23:47Z" finished-at="2022-06-14T09:24:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforesetup()[pri:0, instance:com.qa.hap.tests.HomePageTest@696da30b]" name="beforesetup" is-config="true" duration-ms="540" started-at="2022-06-14T09:24:02Z" finished-at="2022-06-14T09:24:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforesetup -->
-        <test-method status="PASS" signature="HomepageHeaderTest()[pri:0, instance:com.qa.hap.tests.HomePageTest@696da30b]" name="HomepageHeaderTest" duration-ms="5323" started-at="2022-06-14T09:24:03Z" finished-at="2022-06-14T09:24:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomepageHeaderTest -->
-        <test-method status="PASS" signature="homepageHeadersHapVideosTest()[pri:0, instance:com.qa.hap.tests.HomePageTest@696da30b]" name="homepageHeadersHapVideosTest" duration-ms="7098" started-at="2022-06-14T09:24:08Z" finished-at="2022-06-14T09:24:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepageHeadersHapVideosTest -->
-        <test-method status="PASS" signature="homepageHeadersTest()[pri:0, instance:com.qa.hap.tests.HomePageTest@696da30b]" name="homepageHeadersTest" duration-ms="5100" started-at="2022-06-14T09:24:15Z" finished-at="2022-06-14T09:24:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepageHeadersTest -->
-        <test-method status="PASS" signature="validateLogoutLink()[pri:0, instance:com.qa.hap.tests.HomePageTest@696da30b]" name="validateLogoutLink" duration-ms="5000" started-at="2022-06-14T09:24:21Z" finished-at="2022-06-14T09:24:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogoutLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hap.tests.HomePageTest@696da30b]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-06-14T09:24:26Z" finished-at="2022-06-14T09:24:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hap.tests.HomePageTest -->
-    </test> <!-- HAP Home Page Test -->
-  </suite> <!-- HAP Regression Test Suite -->
+      </class> <!-- com.qa.hap.tests.CreateOfferTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
