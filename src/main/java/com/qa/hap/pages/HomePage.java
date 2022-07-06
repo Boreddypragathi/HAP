@@ -86,6 +86,16 @@ private By CreateofferLink=By.linkText("Create Offer");
 	return new CreateOffer(driver);
 	}
 	
+public EmployeeMaster clickonEmpMaster() throws InterruptedException {
+		
+		Thread.sleep(5000);
+		eleutil.doMousehoverviewupdateoffers();
+		Thread.sleep(5000);
+		//eleutil.doClick(CreateofferLink);
+		
+	return new EmployeeMaster(driver);
+	}
+	
 }
 
 

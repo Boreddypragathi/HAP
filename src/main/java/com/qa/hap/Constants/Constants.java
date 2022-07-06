@@ -25,5 +25,11 @@ public class Constants {
 	public static final List<String> EXPECTED_HEADERS_SECTION_LIST = Arrays.asList("HAP Videos", "List of Holidays", "Policy Documents");
 	public static final List<String> EXPECTED_HEADERS_SECTION_HAPVIDEOS = Arrays.asList("Introduction to HAP", "Offer Creation in HAP");
 	public static final String CREATEOFFER_SHEET_NAME = "createoffer";
+	//Employee
+	public static final String CREATE_EMPLOYEE_PAGE_TITLE = "EMPLOYEE PERSONAL DETAILS";
+	public static final String CREATE_EMPLOYEE_PAGE_URL = null;	
+	public static final String ALERTCONFIRMATIONMSG="Click OK To Submit The Employee Details";
+	public static final String  ALERTSUCCCESSMESSAGE="Employee Details Saved Successfully.!";
+	public static final String EMPLOYEEMASTER_SHEET_NAME="employeemaster";
 
 }

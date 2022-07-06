@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 
 import com.qa.hap.factory.Driverfactory;
 import com.qa.hap.pages.CreateOffer;
+import com.qa.hap.pages.EmployeeMaster;
 import com.qa.hap.pages.HomePage;
 import com.qa.hap.pages.LoginPage;
 import com.qa.hap.pages.ViewUpdateOffers;
@@ -19,6 +20,7 @@ protected LoginPage loginpage;
 protected CreateOffer createoffer;
 protected HomePage homepage;
 protected ViewUpdateOffers viewupdateoffers;
+protected EmployeeMaster employeemaster;
 public Properties prop;
 
 	
@@ -33,13 +35,14 @@ public Properties prop;
 			homepage = new HomePage(driver);
 			createoffer=new CreateOffer(driver);
 			viewupdateoffers=new ViewUpdateOffers(driver);
+			employeemaster=new EmployeeMaster(driver);
 		}
 	
 @AfterTest
 public void tearDown()
 	{
 		
-	//driver.quit();
+	driver.quit();
 	}		
 	
 	

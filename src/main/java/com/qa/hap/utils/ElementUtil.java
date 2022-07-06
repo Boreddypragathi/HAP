@@ -147,16 +147,14 @@ public class ElementUtil {
 	public void doMousehover() {
 		
 		WebElement menumouseover=driver.findElement(By.xpath("//a[contains(text(),'Offer/Employee Master')]"));
-		 // Actions act=new Actions(driver);
-		// act.moveToElement(menumouseover).click().perform();
-		 //getElement(locator).isDisplayed();
-		//WebElement menumouseover=driver.findElement(By.xpath("*[@id=\"myDiv\"]/li[6]/a"));
-		 Actions act=new Actions(driver);
+	     Actions act=new Actions(driver);
 	     act.moveToElement(menumouseover).click().perform();
 	     driver.findElement(By.linkText("Create Offer")).click();
 	   
 	}
-public void doMousehoverviewupdateoffers() throws InterruptedException {
+	
+    
+    public void doMousehoverviewupdateoffers() throws InterruptedException {
 		
 		WebElement menumouseover1=driver.findElement(By.xpath("//a[contains(text(),'Offer/Employee Master')]"));
 		 // Actions act=new Actions(driver);
